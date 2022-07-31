@@ -4,13 +4,13 @@ class Shape {
     this.color = color;
   }
   drawShape() {
-    console.log("inside drawShape in Shape ")
+    console.log("inside drawShape in Shape ");
   }
   calculateArea() {
-    console.log("inside calculateArea in Shape ")
-
+    console.log("inside calculateArea in Shape ");
   }
 }
 
 // export class using module.exports
-export {Shape}
+// export {Shape}
+module.export = Shape;
